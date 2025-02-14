@@ -1,0 +1,60 @@
+.SignIn{
+     background-image: url('https://media.istockphoto.com/id/1403057774/vector/gradient-background-orange-pink-and-purple-colors-rainbow-colors-magenta-yellow-and-red.jpg?s=612x612&w=0&k=20&c=vjBJxXPU7QXTUgGcMYVq-4xp7W7ns4wkjf42pDVK2K0='); 
+    background-size: cover;
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure it covers the full viewport */
+    width: 100%;
+}
+/* .SignIn.form-container{
+    margin-top: -200px;
+} */
+.signUpLogo{
+    /* margin-top: 20px; */
+    width: 200px;
+    object-fit: contain;
+    padding: 0px 0px;
+    margin: -25px 0px;
+
+    
+}
+.loginForm{
+    background-color: white;
+     padding: 30px; 
+    border: 1px solid rgb(129,121,121);
+    border-radius: 1px;
+    margin-top: -70px;
+
+}
+.loginform2{
+    background-color: white;
+    padding: 20px;
+    margin-top: 5px;
+    border: 1px solid rgb(129,121,121);
+    border-radius: 1px;
+}
+#login-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    /* width: 80%; */
+    cursor: pointer;
+    margin-top: 8px;
+}
+input{
+    padding: 5px;
+    margin: 3px 0px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form >div{
+    width: 80%;
+    margin: auto;
+}
